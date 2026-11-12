@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "lanes": [
+    {
+      "name": "Stable test versions",
+      "version": "0.5.36",
+      "url": "https://drive.usercontent.google.com/download?id=1826ygKIJK7TOBXJ9-I2j4K_dNouyIGQL&export=download&confirm=t",
+      "sha256": "7a908ca5676b1caf289da8fc8a82ff796c7385f55481b9ed690527cebd976a62",
+      "size": 116058306
+    },
+    {
+      "name": "Experimental test versions",
+      "version": "0.5.36",
+      "url": "https://drive.usercontent.google.com/download?id=1826ygKIJK7TOBXJ9-I2j4K_dNouyIGQL&export=download&confirm=t",
+      "sha256": "7a908ca5676b1caf289da8fc8a82ff796c7385f55481b9ed690527cebd976a62",
+      "size": 116058306
+    }
+  ]
+}

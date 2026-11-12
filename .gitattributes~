@@ -1,0 +1,48 @@
+# Documentation is plain text; keep it LF everywhere, on every checkout.
+*.md       text eol=lf
+*.xml      text eol=lf
+*.xml.user text eol=lf
+*.yml      text eol=lf
+
+# Topic patches for the vendored WT GNS carry the patched files' own bytes, CRLF and LF
+# alike. Git must never rewrite their endings, or they stop applying. scripts/gns-patches/
+*.patch    -text
+
+# Package sources. Their rules live here, not in a .gitattributes next to the files: a
+# folder that is an AssetDir is packaged verbatim, and the file would ship to every user.
+# .md and .xml are covered by the global rules above.
+PackageSources/kap140-mod/**/*.css            text eol=lf
+PackageSources/kap140-mod/**/*.html           text eol=lf
+PackageSources/kap140-mod/**/*.js             text eol=lf
+PackageSources/kap140-mod/**/*.json           text eol=lf
+PackageSources/kap140-mod/**/*.ts             text eol=lf
+
+PackageSources/kr87-mod/**/*.css              text eol=lf
+PackageSources/kr87-mod/**/*.html             text eol=lf
+PackageSources/kr87-mod/**/*.js               text eol=lf
+
+PackageSources/kt76c-mod/**/*.css             text eol=lf
+PackageSources/kt76c-mod/**/*.html            text eol=lf
+PackageSources/kt76c-mod/**/*.js              text eol=lf
+
+PackageSources/gauge-common/**/*.js           text eol=lf
+
+PackageSources/twin-otter-mod/**/*.wav        binary
+
+PackageSources/simobjects/**/*.CFG            text eol=lf
+PackageSources/simobjects/**/*.cfg            text eol=lf
+PackageSources/simobjects/**/*.gltf           text eol=lf
+PackageSources/simobjects/**/*.bin            binary
+PackageSources/simobjects/**/*.png            binary
+
+PackageSources/twin-otter/**/*.json           text eol=lf
+PackageSources/twin-otter/**/*.js             text eol=lf
+PackageSources/twin-otter/**/*.scss           text eol=lf
+PackageSources/twin-otter/**/*.svg            text eol=lf
+PackageSources/twin-otter/**/*.ts             text eol=lf
+PackageSources/twin-otter/**/*.tsx            text eol=lf
+
+PackageSources/twotter-systems-host/**/*.html text eol=lf
+PackageSources/twotter-systems-host/**/*.js   text eol=lf
+PackageSources/twotter-systems-host/**/*.json text eol=lf
+PackageSources/twotter-systems-host/**/*.ts   text eol=lf
