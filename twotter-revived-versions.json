@@ -10,10 +10,10 @@
     },
     {
       "name": "Experimental test versions",
-      "version": "0.5.45",
-      "url": "https://drive.usercontent.google.com/download?id=161U7etyobov8RjeWu_cP2-W1BDuntcSl&export=download&confirm=t",
-      "sha256": "ce93ce00ee5eee33aaf8acb9f7bb336ed84d5b36c18fd5e3cffca8a389df2d02",
-      "size": 127669209
+      "version": "0.5.47",
+      "url": "https://drive.usercontent.google.com/download?id=1yWZ82WaeScoA56k6i4kOeasOiFsQtQ2K&export=download&confirm=t",
+      "sha256": "082f012957bec679c6da7e8f0536cd810e00c8aef61ef8b02c6d7c07f52f4a38",
+      "size": 127678134
     }
   ]
 }
